@@ -27,7 +27,6 @@ if __name__ == '__main__':
                  ["google", "https://www.google.com"], ]
         for site in sites:
             if f"Open {site[0]}".lower() in query.lower():
-                # say()
                 speaker.Speak(f"Opening {site[0]} sir...")
                 webbrowser.open(site[1])
 
